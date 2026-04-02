@@ -13,6 +13,7 @@ def enviar_emails_b2b():
     try:
         LINK_GOOGLE_SHEETS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQBIJi6cimqdAGvngf4T4wXVmFybqme2ZFDkwdKIMThx_TOu0uLm19BYRdH2VKipSAa_u4FXjIR_t0S/pub?output=csv"
         tabela = pd.read_csv(LINK_GOOGLE_SHEETS)
+        print("COLUNAS QUE O PYTHON ACHOU:", tabela.columns)
     except FileNotFoundError:
         print(
             'Arquivo clientes.xlsx não encontrado. Verifique o caminho e tente novamente.')
