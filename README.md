@@ -51,4 +51,4 @@ Desenvolvido por [Ana Raquel]
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/projeto_emails_b2b.git](https://github.com/anaraque-l/projeto_emails_b2b.git)
+   git clone [https://github.com/anaraque-l/projeto_emails_b2b.git](https://github.com/anaraque-l/projeto_emails_b2b.git)
