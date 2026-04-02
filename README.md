@@ -6,7 +6,9 @@ Este projeto é uma solução automatizada para o envio de e-mails comerciais (C
 Equipes de vendas geralmente perdem horas enviando e-mails comerciais manualmente. Além disso, colocar scripts locais nas mãos de times de negócios (que não têm Python instalado) gera atritos. 
 
 **A Solução:** Criei uma arquitetura onde a equipe de Vendas apenas atualiza uma planilha no Google Sheets (como já estão acostumados). Quando a campanha está pronta, qualquer usuário pode acionar um gatilho na nuvem (GitHub Actions) que puxa os dados ao vivo da planilha e dispara e-mails HTML personalizados e responsivos para cada cliente.
+
 ![Demonstração do Email Final](./imagem_exemplo.png)
+
 ## 🛠️ Tecnologias Utilizadas
 * **Python 3.13:** Motor principal da aplicação.
 * **Pandas:** Para extração, leitura e manipulação dos dados via URL.
